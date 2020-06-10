@@ -17,8 +17,8 @@ import George from './gcgbarbosa.jpg'
 
 const useStyles = makeStyles((theme) => ({
   avatar: {
-    width: "20vw",
-    height: "20vw",
+    width: "50%",
+    height: "50%",
     margin: "0 auto",
   },
 }));
