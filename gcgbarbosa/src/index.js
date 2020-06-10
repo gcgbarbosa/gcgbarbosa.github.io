@@ -16,15 +16,9 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   grid: {
-    padding: "50px",
-  },
-  paper: {
-    margin: "10px",
-    textAlign: "center",
-    color: "gray",
-    minWidth: "45vw",
-    minHeight: "90vh",
-  },
+    height: '100vh',
+    padding: '5vh'
+  }
 }));
 
 
@@ -35,15 +29,16 @@ export default function GridSite() {
     <div className={classes.root}>
       <Grid
         className={classes.grid}
-        container
+        spacing={5}
         direction="row"
         justify="center"
         alignItems="center"
+        container
       >
-        <Grid item>
+        <Grid xs={12} sm={6} item>
           <AboutMe />
         </Grid>
-        <Grid item>
+        <Grid xs={12} sm={6} item>
           <MiniCV />
         </Grid>
       </Grid>

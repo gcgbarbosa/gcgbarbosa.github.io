@@ -14,19 +14,9 @@ import GitIcon from '@material-ui/icons/GitHub';
 import InstagramIcon from '@material-ui/icons/Instagram';
 
 const useStyles = makeStyles((theme) => ({
-  paper: {
-    display: "center",
-    minWidth: "45vw",
-    width: "45vw",
-    padding: "10px",
-    margin: "10px",
-  },
   avatar: {
     width: "20vw",
     height: "20vw",
-    margin: "0 auto",
-  },
-  sn: {
     margin: "0 auto",
   },
 }));
@@ -35,23 +25,27 @@ export default function AboutMe() {
   const classes = useStyles();
 
   return (
-    <Box display="flex" justifyContent="center" alignItems="center">
-      <Box flexDirection="row" item>
-        <Paper className={classes.paper}>
-          <Avatar
-            className={classes.avatar}
-            alt="George Barbosa Photo"
-            src="../static/gcgbarbosa.jpg"
-          />
-          <Box m={5}>
-            <Typography align="center" variant="h4" component="h4">
+    <Box display="flex" justifyContent="center" alignItems="center" flexWrap="wrap">
+      <Box width={1} mb={5} item>
+        <Paper>
+          <Box pt={5}>
+            <Avatar
+              className={classes.avatar}
+              alt="George Barbosa Photo"
+              src="../static/gcgbarbosa.jpg"
+            />
+          </Box>
+          <Box p={5}>
+            <Typography align="center" variant="h2" component="h1">
               George C. G. Barbosa
             </Typography>
           </Box>
         </Paper>
-        <Paper className={classes.paper}>
+      </Box>
+      <Box width={1} mb={5} item>
+        <Paper>
           <Box pt={5}>
-            <Typography align="center" variant="h5" component="h5">
+            <Typography align="center" variant="h3" component="h5">
               About me?
             </Typography>
           </Box>
@@ -67,10 +61,12 @@ export default function AboutMe() {
             </Typography>
           </Box>
         </Paper>
-        <Paper className={classes.paper}>
+      </Box>
+      <Box width={1} item>
+        <Paper>
           <Box pt={5}>
-            <Typography align="center" variant="h5" component="h5">
-              My Social Networks
+            <Typography align="center" variant="h3" component="h5">
+              Social Networks
             </Typography>
           </Box>
           <Box p={5} display="flex" justifyContent="center">
