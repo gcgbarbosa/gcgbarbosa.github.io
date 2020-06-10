@@ -5,11 +5,11 @@ import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 
 import Grid from "@material-ui/core/Grid";
-import Paper from "@material-ui/core/Paper";
 
 import { makeStyles } from "@material-ui/core/styles";
 
 import AboutMe from './aboutme';
+import MiniCV from './minicv';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -44,7 +44,7 @@ export default function GridSite() {
           <AboutMe />
         </Grid>
         <Grid item>
-          <Paper className={classes.paper}>B</Paper>
+          <MiniCV />
         </Grid>
       </Grid>
     </div>
