@@ -80,6 +80,18 @@ export default function MiniCV() {
       </Box>
       <Box item >
         <Paper className={classes.paper}>
+          <Box pt={5}>
+            <Typography align="center" variant="h5" component="h5">
+              Last publications
+            </Typography>
+          </Box>
+          <Box p={5} display="flex" flexDirection="colum" >
+            <Typography align="left" variant="h6" component="h6">
+              <Box fontSize='h6.fontSize' item>
+                  University of Arizona
+              </Box>
+            </Typography>
+          </Box>
         </Paper>
       </Box>
     </Box>
