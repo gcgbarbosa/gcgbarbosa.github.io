@@ -1,11 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import BottomNavigation from "@material-ui/core/BottomNavigation";
-import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
-import Paper from "@material-ui/core/Paper";
-import ScholarIcon from '@material-ui/icons/School';
-
 import * as serviceWorker from "./serviceWorker";
 
 import Grid from "@material-ui/core/Grid";
@@ -17,10 +12,10 @@ import MiniCV from "./minicv";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1,
+    margin: '0 auto',
   },
   grid: {
-    height: "100vh",
+    minHeight: "90vh",
     padding: theme.spacing(2),
   },
 }));
