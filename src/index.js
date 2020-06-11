@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+//import "./index.css";
 
 import * as serviceWorker from "./serviceWorker";
 
@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
   },
   grid: {
     height: '100vh',
-    padding: '5vh'
+    padding: theme.spacing(5)
   }
 }));
 
