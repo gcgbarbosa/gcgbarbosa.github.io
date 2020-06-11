@@ -30,29 +30,30 @@ export default function AboutMe() {
     <Box display="flex" justifyContent="center" alignItems="center" flexWrap="wrap">
       <Box width={1} mb={4} item>
         <Paper>
-          <Box pt={5}>
+          <Box pt={4}>
             <Avatar
               className={classes.avatar}
               alt="George Barbosa Photo"
               src={George}
             />
           </Box>
-          <Box p={5}>
+          <Box p={4}>
             <Typography align="center" variant="h3">
-              <strong>George C. G. Barbosa</strong>
+              <stronger>George C. G. Barbosa</stronger>
             </Typography>
           </Box>
         </Paper>
       </Box>
       <Box width={1} mb={4} item>
         <Paper>
-          <Box pt={5}>
+          <Box pt={4}>
             <Typography align="center" variant="h3">
               About me?
             </Typography>
           </Box>
-          <Box p={5}>
-            <Typography align="center" variant="h6" component="body1">
+          <Box p={4}>
+            <Typography align="justify" variant="h5">
+              <small>
               Experienced Developer with a demonstrated history of working in
               research. Skilled in various programming languages, such as
               Python, C, Java, and Scala. Proficient with many BigData tools,
@@ -60,13 +61,14 @@ export default function AboutMe() {
               research professional with an MS in Computer Science with a focus
               in Natural Language Processing (NLP) from the Federal University
               of Bahia. Currently working on Deep Learning applied to NLP.
+              </small>
             </Typography>
           </Box>
         </Paper>
       </Box>
       <Box width={1} item>
         <Paper>
-          <Box pt={4}>
+          <Box p={4} pb={0} >
             <Typography align="center" variant="h3">
               Social Networks
             </Typography>

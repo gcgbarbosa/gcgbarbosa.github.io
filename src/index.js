@@ -1,6 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-//import "./index.css";
+
+import BottomNavigation from "@material-ui/core/BottomNavigation";
+import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
+import Paper from "@material-ui/core/Paper";
+import ScholarIcon from '@material-ui/icons/School';
 
 import * as serviceWorker from "./serviceWorker";
 
@@ -8,28 +12,26 @@ import Grid from "@material-ui/core/Grid";
 
 import { makeStyles } from "@material-ui/core/styles";
 
-import AboutMe from './aboutme';
-import MiniCV from './minicv';
+import AboutMe from "./aboutme";
+import MiniCV from "./minicv";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
   grid: {
-    height: '100vh',
-    padding: theme.spacing(5)
-  }
+    height: "100vh",
+    padding: theme.spacing(2),
+  },
 }));
-
 
 export default function GridSite() {
   const classes = useStyles();
-
   return (
     <div className={classes.root}>
       <Grid
         className={classes.grid}
-        spacing={5}
+        spacing={2}
         direction="row"
         justify="center"
         alignItems="center"

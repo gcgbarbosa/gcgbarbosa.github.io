@@ -7,9 +7,9 @@
 
     return (
       <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" flexWrap="wrap">
-        <Box width={1} mb={5} item>
+        <Box width={1} mb={4} item>
           <Paper>  
-            <Box pt={4}>
+            <Box pt={4} >
               <Typography align="center" variant="h3">
                 Education
               </Typography>
@@ -55,12 +55,12 @@
         </Box>
         <Box width={1} item>
           <Paper>
-          <Box pt={5}>
+          <Box pt={4}>
             <Typography align="center" variant="h3">
               Last publications
             </Typography>
           </Box>
-          <Box p={5} display="flex" flexDirection="colum" >
+          <Box p={4} display="flex" flexDirection="colum" >
             <Typography align="left" variant="h1" >
               <Box fontSize='h4.fontSize' item>
                   Parsing as Tagging
@@ -76,7 +76,7 @@
               </Box>
             </Typography>
           </Box>
-          <Box p={5} pt={0} display="flex" flexDirection="colum" >
+          <Box p={4} pt={0} display="flex" flexDirection="colum" >
             <Typography align="left" variant="h1" >
               <Box fontSize='h4.fontSize' item>
                 The Center for Data and Knowledge Integration for Health (CIDACS)
@@ -92,7 +92,7 @@
               </Box>
             </Typography>
           </Box>
-          <Box p={5} pt={0} display="flex" flexDirection="colum" >
+          <Box p={4} pt={0} display="flex" flexDirection="colum" >
             <Typography align="left" variant="h1" >
               <Box fontSize='h4.fontSize' item>
                 CIDACS-RL: A novel search engine-based record linkage system for huge datasets with high accuracy and scalability
