@@ -48,29 +48,24 @@ export default function AboutMe() {
         <Paper>
           <Box pt={4}>
             <Typography align="center" variant="h3">
-              About me?
+              Myself
             </Typography>
           </Box>
           <Box p={4}>
             <Typography align="justify" variant="h5">
-              <small>
-              Experienced Developer with a demonstrated history of working in
-              research. Skilled in various programming languages, such as
-              Python, C, Java, and Scala. Proficient with many BigData tools,
-              such as Spark and other tools in the Hadoop Ecosystem. Strong
-              research professional with an MS in Computer Science with a focus
-              in Natural Language Processing (NLP) from the Federal University
-              of Bahia. Currently working on Deep Learning applied to NLP.
-              </small>
+                I am currently a intern @lum.ai.
+            </Typography>
+            <Typography align="justify" variant="h5">
+                Working towards my PhD under the supervision of Mihai Surdeanu.
             </Typography>
           </Box>
         </Paper>
       </Box>
-      <Box width={1} item>
+      <Box width={1} mb={4} item>
         <Paper>
           <Box p={4} pb={0} >
             <Typography align="center" variant="h3">
-              Social Networks
+              Social
             </Typography>
           </Box>
           <Box p={4} display="flex" justifyContent="center">

@@ -23,7 +23,7 @@
                   Doctor of Philosophy - PhD, Computer Science
                 </Box>
                 <Box fontSize='subtitle2.fontSize' item>
-                    2019-2024
+                    hopefully soon
                 </Box>
               </Typography>
             </Box>
@@ -36,7 +36,7 @@
                   Master of Science - MS, Computer Science
                 </Box>
                 <Box fontSize='subtitle2.fontSize' item>
-                    2016-2018
+                    2018
                 </Box>
               </Typography>
             </Box>
@@ -49,7 +49,7 @@
                   Bachelor of Science - BS, Information Systems
                 </Box>
                 <Box fontSize='subtitle2.fontSize' item>
-                    2010-2014
+                    2014
                 </Box>
               </Typography> </Box> </Paper>
         </Box>
