@@ -53,7 +53,7 @@ export default function AboutMe() {
           </Box>
           <Box p={4}>
             <Typography align="justify" variant="h5">
-                I am currently a intern @lum.ai.
+                I am currently an intern @lum.ai.
             </Typography>
             <Typography align="justify" variant="h5">
                 Working towards my PhD under the supervision of Mihai Surdeanu.
