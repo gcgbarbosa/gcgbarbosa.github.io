@@ -61,7 +61,7 @@ export default function AboutMe() {
           </Box>
         </Paper>
       </Box>
-      <Box width={1} mb={4} item>
+      <Box width={1} mb={2} item>
         <Paper>
           <Box p={4} pb={0} >
             <Typography align="center" variant="h3">
