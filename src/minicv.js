@@ -55,9 +55,25 @@
         </Box>
         <Box width={1} item>
           <Paper>
-          <Box pt={4}>
+          <Box p={4}>
             <Typography align="center" variant="h3">
-              Last publications
+              Recent publications
+            </Typography>
+          </Box>
+          <Box p={4} pt={0} display="flex" flexDirection="colum" >
+            <Typography align="left" variant="h1" >
+              <Box fontSize='h4.fontSize' item>
+                Examining the quality of record linkage process using nationwide Brazilian administrative databases to build a large birth cohort
+              </Box>
+              <Box fontSize='h6.fontSize' item>
+                Daniela Almeida, David Gorender, Maria Yury Ichihara, Samila Sena, Luan Menezes, <strong>George CG Barbosa</strong>, Rosimeire L Fiaccone, Enny Paixao, Robespierre Pita, Mauricio L Barreto
+              </Box>
+              <Box fontSize='h5.fontSize' item>
+                BMC Medical Informatics and Decision Making
+              </Box>
+              <Box fontSize='subtitle2.fontSize' item>
+                  2020
+              </Box>
             </Typography>
           </Box>
           <Box p={4} display="flex" flexDirection="colum" >
@@ -86,22 +102,6 @@
               </Box>
               <Box fontSize='h5.fontSize' item>
                 International Journal of Population Data Science
-              </Box>
-              <Box fontSize='subtitle2.fontSize' item>
-                  2019
-              </Box>
-            </Typography>
-          </Box>
-          <Box p={4} pt={0} display="flex" flexDirection="colum" >
-            <Typography align="left" variant="h1" >
-              <Box fontSize='h4.fontSize' item>
-                CIDACS-RL: A novel search engine-based record linkage system for huge datasets with high accuracy and scalability
-              </Box>
-              <Box fontSize='h6.fontSize' item>
-                <strong>George CG Barbosa</strong>, Mohamed S Ali, Bruno Araujo, Maria Y Ichihara, Sandra Reis, Samila Sena, Julia M Pescarini, Rosemeire L Fiaccone, Leila D Amorim, Robespierre Pita, Marcos E Barreto, Liam Smeeth, Mauricio L Barreto
-              </Box>
-              <Box fontSize='h5.fontSize' item>
-                Pharmacoepidemiology and Drug Safety
               </Box>
               <Box fontSize='subtitle2.fontSize' item>
                   2019
