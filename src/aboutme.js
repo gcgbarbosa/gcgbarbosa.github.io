@@ -57,7 +57,7 @@ export default function AboutMe() {
                 <Link href="https://lum.ai">lum.ai</Link>.
             </Typography>
             <Typography align="justify" variant="h5">
-                Working towards my PhD under the supervision of &nbsp;
+                Working towards my PhD under the supervision of&nbsp;
               <Link href="http://www.surdeanu.info/mihai/">Mihai Surdeanu</Link>.
             </Typography>
           </Box>
