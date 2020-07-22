@@ -10,7 +10,7 @@
         <Box width={1} mb={4} item>
           <Paper>  
             <Box pt={4} >
-              <Typography align="center" variant="h3">
+              <Typography align="center" variant="h4">
                 Education
               </Typography>
             </Box>
@@ -56,13 +56,13 @@
         <Box width={1} item>
           <Paper>
           <Box pt={4}>
-            <Typography align="center" variant="h3">
+            <Typography align="center" variant="h4">
               Recent publications
             </Typography>
           </Box>
           <Box p={4} display="flex" flexDirection="colum" >
             <Typography align="left" variant="h1" >
-              <Box fontSize='h4.fontSize' item>
+              <Box fontSize='h5.fontSize' item>
                 Examining the quality of record linkage process using nationwide Brazilian administrative databases to build a large birth cohort
               </Box>
               <Box fontSize='h6.fontSize' item>
@@ -78,7 +78,7 @@
           </Box>
           <Box p={4} pt={0} display="flex" flexDirection="colum" >
             <Typography align="left" variant="h1" >
-              <Box fontSize='h4.fontSize' item>
+              <Box fontSize='h5.fontSize' item>
                   Parsing as Tagging
               </Box>
               <Box fontSize='h6.fontSize' item>
@@ -94,7 +94,7 @@
           </Box>
           <Box p={4} pt={0} display="flex" flexDirection="colum" >
             <Typography align="left" variant="h1" >
-              <Box fontSize='h4.fontSize' item>
+              <Box fontSize='h5.fontSize' item>
                 The Center for Data and Knowledge Integration for Health (CIDACS)
               </Box>
               <Box fontSize='h6.fontSize' item>

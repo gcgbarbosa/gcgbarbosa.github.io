@@ -4,42 +4,32 @@ import ReactDOM from "react-dom";
 import * as serviceWorker from "./serviceWorker";
 
 import Grid from "@material-ui/core/Grid";
-
-import { makeStyles } from "@material-ui/core/styles";
+import Box from "@material-ui/core/Box";
+import Container from "@material-ui/core/Container";
 
 import AboutMe from "./aboutme";
 import MiniCV from "./minicv";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    margin: '0 auto',
-  },
-  grid: {
-    minHeight: "90vh",
-    padding: theme.spacing(2),
-  },
-}));
-
 export default function GridSite() {
-  const classes = useStyles();
   return (
-    <div className={classes.root}>
-      <Grid
-        className={classes.grid}
-        spacing={2}
-        direction="row"
-        justify="center"
-        alignItems="center"
-        container
-      >
-        <Grid xs={12} sm={6} item>
-          <AboutMe />
+    <Box my={4}>
+      <Container maxWith="xs">
+        <Grid
+          spacing={2}
+          direction="row"
+          justify="center"
+          alignItems="center"
+          container
+        >
+          <Grid xs={12} sm={6} item>
+            <AboutMe />
+          </Grid>
+          <Grid xs={12} sm={6} item>
+            <MiniCV />
+          </Grid>
         </Grid>
-        <Grid xs={12} sm={6} item>
-          <MiniCV />
-        </Grid>
-      </Grid>
-    </div>
+      </Container>
+    </Box>
   );
 }
 
