@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+<title>Saúde na Tríplice Fronteira</title>
+<style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #125f83;
+            font-family: 'Roboto', sans-serif;
+        }
+        .container {
+            text-align: center;
+            color: white;
+        }
+        img {
+            max-width: 50%;
+            height: auto;
+
+        }
+        .buttons {
+            display: flex;
+            margin-top: 20px;
+            justify-content: center;
+        }
+        .buttons a {
+            background-color: white;
+            color: #125f83;
+            padding: 10px 20px;
+            margin: 0 10px;
+            text-decoration: none;
+            border: 2px solid white;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+            min-width: 120px;
+        }
+        .buttons a:hover {
+            background-color: #125f83;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Saúde na Tríplice Fronteira</h1>
+            <h2>Acompanhamento das informações de saúde extraídas de sistemas de dados abertos* da região</h2>
+        </div>
+        <img id="img-painel" src="assets/painel.png" alt="Saúde na Tríplice Fronteira"><div class="buttons">
+            <a id="link-dengue" href="dengue/br">Dengue</a>
+            <a disabled id="link-sg" href="#">Síndrome Gripal</a>
+            <a id="link-tb" href="tb/br">Tuberculose</a>
+        </div>
+    </div>
+</body>
+</html>

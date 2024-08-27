@@ -1,0 +1,253 @@
+"year","month","clinical_presentation","cases"
+2022,"Jan","Abandono",0
+2022,"Jan","Cura",1
+2022,"Jan","Óbito por outras causas",1
+2022,"Jan","Óbito por TB",0
+2022,"Jan","Outros",0
+2022,"Jan","Sem informação",0
+2022,"Jan","Transferência",0
+2023,"Jan","Abandono",1
+2023,"Jan","Cura",1
+2023,"Jan","Óbito por outras causas",0
+2023,"Jan","Óbito por TB",0
+2023,"Jan","Outros",0
+2023,"Jan","Sem informação",0
+2023,"Jan","Transferência",0
+2024,"Jan","Abandono",0
+2024,"Jan","Cura",0
+2024,"Jan","Óbito por outras causas",0
+2024,"Jan","Óbito por TB",0
+2024,"Jan","Outros",0
+2024,"Jan","Sem informação",2
+2024,"Jan","Transferência",0
+2022,"Fev","Abandono",0
+2022,"Fev","Cura",4
+2022,"Fev","Óbito por outras causas",1
+2022,"Fev","Óbito por TB",1
+2022,"Fev","Outros",0
+2022,"Fev","Sem informação",0
+2022,"Fev","Transferência",0
+2023,"Fev","Abandono",0
+2023,"Fev","Cura",2
+2023,"Fev","Óbito por outras causas",0
+2023,"Fev","Óbito por TB",1
+2023,"Fev","Outros",0
+2023,"Fev","Sem informação",0
+2023,"Fev","Transferência",0
+2024,"Fev","Abandono",0
+2024,"Fev","Cura",0
+2024,"Fev","Óbito por outras causas",0
+2024,"Fev","Óbito por TB",0
+2024,"Fev","Outros",0
+2024,"Fev","Sem informação",0
+2024,"Fev","Transferência",0
+2022,"Mar","Abandono",0
+2022,"Mar","Cura",3
+2022,"Mar","Óbito por outras causas",0
+2022,"Mar","Óbito por TB",0
+2022,"Mar","Outros",0
+2022,"Mar","Sem informação",0
+2022,"Mar","Transferência",0
+2023,"Mar","Abandono",0
+2023,"Mar","Cura",1
+2023,"Mar","Óbito por outras causas",0
+2023,"Mar","Óbito por TB",0
+2023,"Mar","Outros",0
+2023,"Mar","Sem informação",0
+2023,"Mar","Transferência",0
+2024,"Mar","Abandono",0
+2024,"Mar","Cura",0
+2024,"Mar","Óbito por outras causas",0
+2024,"Mar","Óbito por TB",0
+2024,"Mar","Outros",0
+2024,"Mar","Sem informação",0
+2024,"Mar","Transferência",0
+2022,"Abr","Abandono",0
+2022,"Abr","Cura",6
+2022,"Abr","Óbito por outras causas",0
+2022,"Abr","Óbito por TB",0
+2022,"Abr","Outros",0
+2022,"Abr","Sem informação",0
+2022,"Abr","Transferência",2
+2023,"Abr","Abandono",0
+2023,"Abr","Cura",1
+2023,"Abr","Óbito por outras causas",0
+2023,"Abr","Óbito por TB",0
+2023,"Abr","Outros",0
+2023,"Abr","Sem informação",0
+2023,"Abr","Transferência",1
+2024,"Abr","Abandono",0
+2024,"Abr","Cura",0
+2024,"Abr","Óbito por outras causas",0
+2024,"Abr","Óbito por TB",0
+2024,"Abr","Outros",0
+2024,"Abr","Sem informação",0
+2024,"Abr","Transferência",0
+2022,"Mai","Abandono",2
+2022,"Mai","Cura",6
+2022,"Mai","Óbito por outras causas",0
+2022,"Mai","Óbito por TB",0
+2022,"Mai","Outros",0
+2022,"Mai","Sem informação",0
+2022,"Mai","Transferência",3
+2023,"Mai","Abandono",0
+2023,"Mai","Cura",5
+2023,"Mai","Óbito por outras causas",0
+2023,"Mai","Óbito por TB",1
+2023,"Mai","Outros",0
+2023,"Mai","Sem informação",0
+2023,"Mai","Transferência",3
+2024,"Mai","Abandono",0
+2024,"Mai","Cura",0
+2024,"Mai","Óbito por outras causas",0
+2024,"Mai","Óbito por TB",0
+2024,"Mai","Outros",0
+2024,"Mai","Sem informação",0
+2024,"Mai","Transferência",0
+2022,"Jun","Abandono",2
+2022,"Jun","Cura",1
+2022,"Jun","Óbito por outras causas",0
+2022,"Jun","Óbito por TB",0
+2022,"Jun","Outros",0
+2022,"Jun","Sem informação",0
+2022,"Jun","Transferência",2
+2023,"Jun","Abandono",0
+2023,"Jun","Cura",6
+2023,"Jun","Óbito por outras causas",0
+2023,"Jun","Óbito por TB",0
+2023,"Jun","Outros",0
+2023,"Jun","Sem informação",0
+2023,"Jun","Transferência",2
+2024,"Jun","Abandono",0
+2024,"Jun","Cura",0
+2024,"Jun","Óbito por outras causas",0
+2024,"Jun","Óbito por TB",0
+2024,"Jun","Outros",0
+2024,"Jun","Sem informação",0
+2024,"Jun","Transferência",0
+2022,"Jul","Abandono",1
+2022,"Jul","Cura",3
+2022,"Jul","Óbito por outras causas",0
+2022,"Jul","Óbito por TB",2
+2022,"Jul","Outros",1
+2022,"Jul","Sem informação",0
+2022,"Jul","Transferência",1
+2023,"Jul","Abandono",1
+2023,"Jul","Cura",3
+2023,"Jul","Óbito por outras causas",0
+2023,"Jul","Óbito por TB",0
+2023,"Jul","Outros",0
+2023,"Jul","Sem informação",0
+2023,"Jul","Transferência",3
+2024,"Jul","Abandono",0
+2024,"Jul","Cura",0
+2024,"Jul","Óbito por outras causas",0
+2024,"Jul","Óbito por TB",0
+2024,"Jul","Outros",0
+2024,"Jul","Sem informação",0
+2024,"Jul","Transferência",0
+2022,"Ago","Abandono",0
+2022,"Ago","Cura",8
+2022,"Ago","Óbito por outras causas",0
+2022,"Ago","Óbito por TB",1
+2022,"Ago","Outros",0
+2022,"Ago","Sem informação",0
+2022,"Ago","Transferência",1
+2023,"Ago","Abandono",0
+2023,"Ago","Cura",0
+2023,"Ago","Óbito por outras causas",0
+2023,"Ago","Óbito por TB",1
+2023,"Ago","Outros",0
+2023,"Ago","Sem informação",1
+2023,"Ago","Transferência",0
+2024,"Ago","Abandono",0
+2024,"Ago","Cura",0
+2024,"Ago","Óbito por outras causas",0
+2024,"Ago","Óbito por TB",0
+2024,"Ago","Outros",0
+2024,"Ago","Sem informação",0
+2024,"Ago","Transferência",0
+2022,"Set","Abandono",0
+2022,"Set","Cura",2
+2022,"Set","Óbito por outras causas",0
+2022,"Set","Óbito por TB",0
+2022,"Set","Outros",0
+2022,"Set","Sem informação",0
+2022,"Set","Transferência",2
+2023,"Set","Abandono",0
+2023,"Set","Cura",0
+2023,"Set","Óbito por outras causas",0
+2023,"Set","Óbito por TB",0
+2023,"Set","Outros",0
+2023,"Set","Sem informação",4
+2023,"Set","Transferência",0
+2024,"Set","Abandono",0
+2024,"Set","Cura",0
+2024,"Set","Óbito por outras causas",0
+2024,"Set","Óbito por TB",0
+2024,"Set","Outros",0
+2024,"Set","Sem informação",0
+2024,"Set","Transferência",0
+2022,"Out","Abandono",1
+2022,"Out","Cura",2
+2022,"Out","Óbito por outras causas",0
+2022,"Out","Óbito por TB",0
+2022,"Out","Outros",0
+2022,"Out","Sem informação",0
+2022,"Out","Transferência",3
+2023,"Out","Abandono",0
+2023,"Out","Cura",1
+2023,"Out","Óbito por outras causas",1
+2023,"Out","Óbito por TB",0
+2023,"Out","Outros",0
+2023,"Out","Sem informação",5
+2023,"Out","Transferência",1
+2024,"Out","Abandono",0
+2024,"Out","Cura",0
+2024,"Out","Óbito por outras causas",0
+2024,"Out","Óbito por TB",0
+2024,"Out","Outros",0
+2024,"Out","Sem informação",0
+2024,"Out","Transferência",0
+2022,"Nov","Abandono",1
+2022,"Nov","Cura",4
+2022,"Nov","Óbito por outras causas",0
+2022,"Nov","Óbito por TB",1
+2022,"Nov","Outros",0
+2022,"Nov","Sem informação",0
+2022,"Nov","Transferência",0
+2023,"Nov","Abandono",0
+2023,"Nov","Cura",0
+2023,"Nov","Óbito por outras causas",0
+2023,"Nov","Óbito por TB",0
+2023,"Nov","Outros",0
+2023,"Nov","Sem informação",5
+2023,"Nov","Transferência",2
+2024,"Nov","Abandono",0
+2024,"Nov","Cura",0
+2024,"Nov","Óbito por outras causas",0
+2024,"Nov","Óbito por TB",0
+2024,"Nov","Outros",0
+2024,"Nov","Sem informação",0
+2024,"Nov","Transferência",0
+2022,"Dez","Abandono",0
+2022,"Dez","Cura",4
+2022,"Dez","Óbito por outras causas",0
+2022,"Dez","Óbito por TB",1
+2022,"Dez","Outros",0
+2022,"Dez","Sem informação",0
+2022,"Dez","Transferência",0
+2023,"Dez","Abandono",0
+2023,"Dez","Cura",0
+2023,"Dez","Óbito por outras causas",0
+2023,"Dez","Óbito por TB",0
+2023,"Dez","Outros",0
+2023,"Dez","Sem informação",0
+2023,"Dez","Transferência",1
+2024,"Dez","Abandono",0
+2024,"Dez","Cura",0
+2024,"Dez","Óbito por outras causas",0
+2024,"Dez","Óbito por TB",0
+2024,"Dez","Outros",0
+2024,"Dez","Sem informação",0
+2024,"Dez","Transferência",0

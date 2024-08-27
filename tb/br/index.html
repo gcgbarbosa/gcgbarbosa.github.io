@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saúde na Tríplice Fronteira</title>
+<style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+      .top-nav {
+        flex: 0 0 auto;
+      }
+      .content {
+        flex: 1 0 auto;
+        display: flex;
+        flex-direction: column;
+      }
+      .navbar {
+        background-color: #125f83; /* Match the purple color */
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+      }
+      .navbar .logo {
+        display: flex;
+        align-items: center;
+      }
+      .logo a {
+        text-decoration: none;
+        color: white;
+      }
+      .navbar .logo img {
+        height: 30px; /* Adjust as necessary */
+        margin-right: 10px;
+      }
+      .navbar .title {
+        font-size: 18px;
+      }
+      .navbar .languages {
+        font-size: 14px;
+      }
+      .navbar .languages a {
+        color: white;
+        text-decoration: none;
+        margin-left: 10px;
+        background-color: #4188aa; /* Different button color */
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+      .navbar .languages a:hover {
+        background-color: #4188aa; /* Darker shade for hover */
+      }
+      .sub-nav {
+        display: flex;
+        justify-content: left;
+        padding: 18px 20px 0px 15px;
+        /* padding-bottom: 0px; */
+
+        /* border-style:dashed; */
+      }
+
+      .button-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        margin: 40px 40px 0px 50px;
+      }
+
+      .button {
+        width: 150px;
+        padding: 10px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        border-radius: 5px;
+        border: 2px solid #4188aa;
+        text-decoration: none;
+        color: #4188aa;
+        display: block;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      .button-primary {
+        background-color: #4188aa;
+        color: white;
+      }
+
+      .button-secondary {
+        background-color: white;
+        color: #4188aa;
+      }
+
+      .button-secondary:hover {
+        background-color: #4188aa;
+        color: white;
+      }
+      .circle-container {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+      .circle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        border: 2px solid #125f83;
+        border-radius: 50%;
+        text-align: center;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+      }
+      .circle:hover {
+        background-color: #C0C0C0;
+      }
+      .circle img {
+        width: 40px;
+        height: auto;
+        margin-bottom: 10px;
+      }
+      .circle .title {
+        font-weight: bold;
+        font-size: 12px;
+        color: black;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+      }
+      .circle .subtitle {
+        font-size: 12px;
+        color: black;
+      }
+      #selected {
+        background-color: #125f83;
+      }
+      #selected .title {
+        color: white;
+      }
+      #selected .subtitle {
+        color: white;
+      }
+      .sub-nav-item {
+        /* border-style: dotted; */
+      }
+      .sub-header {
+        height: 100%;
+        /* border-style:dashed; */
+        align-items: center;
+        justify-content: center;
+        color: #125f83;
+      }
+      .sub-title {
+        padding: 0px;
+      }
+      #plots {
+        flex: 1 0 auto;
+        /* width: 100%; */
+        border: none;
+      }
+      .layout {
+        /* border: 2px dashed black; */
+      }
+      #all {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      #bottom {
+        display: flex;
+        align-items: stretch;
+        height: 100%;
+      }
+      #content {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+      .text-with-lines {
+        position: relative;
+        display: inline-block;
+        color: #125f83; /* Adjust to match your color */
+        font-size: 24px; /* Adjust as needed */
+        font-weight: bold;
+      }
+
+      .text-with-lines::before,
+      .text-with-lines::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px; /* Adjust the height of the lines */
+        background-color: #125f83; /* Adjust to match your color */
+      }
+
+      .text-with-lines::before {
+        top: -10px; /* Adjust the distance above the text */
+        left: 0;
+      }
+
+      .text-with-lines::after {
+        bottom: -10px; /* Adjust the distance below the text */
+        left: 0;
+      }
+    </style>
+</head>
+<body>
+    <div id="all" class="layout">
+      <div id="top" class="layout">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html">
+              <img src="/assets/logo.png" alt="Logo"></a>
+            <div class="title">
+              <a href="index.html">Tríplice Fronteira | Acompanhamento dos dados em saúde da
+                região</a>
+            </div>
+          </div>
+          <div class="languages">
+<a href="#">POR</a><a href="#">ESP</a>
+</div>
+        </div>
+      </div>
+      <div id="bottom" class="layout">
+        <div id="left" class="layout">
+          <div class="button-container">
+            <a id="link-dengue" href="/dengue/br" class="button button-secondary">DENGUE</a>
+            <a id="link-sg" href="#" class="button button-secondary">SÍNDROME GRIPAL</a>
+            <a id="link-tb" href="#" class="button button-primary">TUBERCULOSE</a>
+          </div>
+        </div>
+        <div id="right" class="layout" style="flex-grow: 10; margin-right: 40px">
+          <div id="content">
+            <div class="top-nav">
+              <div class="sub-nav">
+                <div class="sub-nav-item" style="flex-grow: 10">
+                  <div class="sub-header">
+                    <h1 id="title" class="sub-title">TUBERCULOSE | Dados de Tabatinga (Brasil)</h1>
+                  </div>
+                </div>
+                <div class="sub-nav-item">
+                  <div class="circle-container">
+                    <a id="flag-link-br" href="/tb/br">
+                      <div class="circle" href="#" id="selected">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg" alt="Brazil Flag"><div class="title">Tabatinga</div>
+                        <div class="subtitle">BRASIL</div>
+                      </div>
+                    </a>
+                    <a id="flag-link-colombia" href="/tb/colombia">
+                      <div class="circle">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg" alt="Colombia Flag"><div class="title">Letícia</div>
+                        <div class="subtitle">COLÔMBIA</div>
+                      </div>
+                    </a>
+                    <a id="flag-link-peru" href="/tb/peru">
+                      <div class="circle">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Peru.svg" alt="Peru Flag"><div class="title">Santa Rosa</div>
+                        <div class="subtitle">PERU</div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content" style="flex-grow: 10">
+              <!-- <iframe id="plots" src="br/index.html"></iframe> -->
+              <iframe id="plots" src="/tb/br/html"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
